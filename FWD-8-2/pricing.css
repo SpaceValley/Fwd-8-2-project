@@ -1,0 +1,205 @@
+body {
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container-fluid{
+    padding: 0;
+    z-index: 2;
+}
+.header-image {
+    margin: auto;
+}
+.header-info {
+    display: inline-block;
+    vertical-align: top;
+    font-size:12px;
+}
+
+.contact-link {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+.contact-link:hover  {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.navbar {
+    padding: .5rem 0;
+}
+
+.navbar-toggler {
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    padding-top: 0;
+    width: 100%;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.header .nav-item {
+    border-top: 4px solid rgb(212, 212, 212);
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header .nav-item:hover {
+    border-top: 4px solid rgb(255, 0, 0);
+}
+
+.header .nav-link {
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+
+@media screen and (max-width: 991px ) {
+    .header .nav-item, .header .nav-item:hover {
+        border-top: 0;
+    }
+
+    .header .nav-link:hover {
+        color: rgb(255, 255, 255) !important;
+        background-color: red;
+    }
+    
+    .nav-item.dropdown.show {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .nav-item.dropdown .dropdown-menu.show {
+        border: 0;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .nav-item.dropdown.show .dropdown-item:hover {
+        background-color: rgb(255, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+
+    .header {
+        border: 4px solid rgb(255, 0, 0);
+    }
+}
+
+.left-title-line {
+    width: 70px;
+    padding: 2px;
+    background: rgb(255, 0, 0);
+}
+
+.subtitle-line {
+    width: 50px;
+    padding: 2px;
+    background: rgb(255, 0, 0);
+}
+.backgroundfootertop {
+    background-color: rgb(25, 25, 25);
+    height: auto;
+}
+
+.backgroundfooterbutton {
+    background-color: rgb(13, 13, 13);
+    height: auto;
+    padding-top: 80px
+}
+
+.li-arrow::before {
+    content: "";
+    background: url("./images/arrow-right.jpg");
+    width: 0.5em;
+    height: 0.5em;
+    display: inline-block;
+    background-size: 100%;
+    margin-right: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+ul li a {
+    color: rgb(134, 134, 134);
+
+}
+
+ul li a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.phone-number {
+    color: rgb(105, 105, 105);
+}
+
+.phone-number:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.email-link{
+    color: red;
+}
+
+.email-link:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.pricing-bg-container {
+    background-image: url("./images/truck-bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 100px ;
+    padding-bottom:100px; 
+}
+
+.pricing-title {
+    font-size: 2em;
+}
+
+.pricing-subtitle {
+    font-size: 3em;
+}
+
+.order-now-button{
+    width: 50%;
+    height: 50px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    padding: 5px 20px 5px 20px;
+}
+
+.order-now-button:hover {
+    background-color: rgb(158, 156, 156);
+}
+
+.order-now-link {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.order-now-link:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}

@@ -1,0 +1,309 @@
+body {
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container-fluid{
+    padding: 0;
+    z-index: 2;
+}
+.header-image {
+    margin: auto;
+}
+.header-info {
+    display: inline-block;
+    vertical-align: top;
+    font-size:12px;
+}
+
+.contact-link {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+.contact-link:hover  {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.navbar {
+    padding: .5rem 0;
+}
+
+.navbar-toggler {
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    padding-top: 0;
+    width: 100%;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.header .nav-item {
+    border-top: 4px solid rgb(212, 212, 212);
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header .nav-item:hover {
+    border-top: 4px solid rgb(255, 0, 0);
+}
+
+.header .nav-link {
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+
+@media screen and (max-width: 991px ) {
+    .header .nav-item, .header .nav-item:hover {
+        border-top: 0;
+    }
+
+    .header .nav-link:hover {
+        color: rgb(255, 255, 255) !important;
+        background-color: red;
+    }
+    
+    .nav-item.dropdown.show {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .nav-item.dropdown .dropdown-menu.show {
+        border: 0;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .nav-item.dropdown.show .dropdown-item:hover {
+        background-color: rgb(255, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+
+    .header {
+        border: 4px solid rgb(255, 0, 0);
+    }
+}
+
+.left-title-line {
+    width: 70px;
+    padding: 2px;
+    background: rgb(255, 0, 0);
+}
+
+.subtitle-line {
+    width: 50px;
+    padding: 2px;
+    background: rgb(255, 0, 0);
+}
+.backgroundfootertop {
+    background-color: rgb(25, 25, 25);
+    height: auto;
+}
+
+.backgroundfooterbutton {
+    background-color: rgb(13, 13, 13);
+    height: auto;
+    padding-top: 80px
+}
+
+.li-arrow::before {
+    content: "";
+    background: url(../images/list-arrow.png);
+    width: 0.5em;
+    height: 0.5em;
+    display: inline-block;
+    background-size: 100%;
+    margin-right: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+ul li a {
+    color: rgb(134, 134, 134);
+
+}
+
+ul li a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.phone-number {
+    color: rgb(105, 105, 105);
+}
+
+.phone-number:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.email-link{
+    color: red;
+}
+
+.email-link:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.intro {
+    color: rgb(255, 255, 255);
+}
+
+.intro .bg {
+    align-self: center;
+    width: 100%;
+}
+
+.intro .title-container {
+    margin: 6% 0 0 5%;
+    position: absolute;
+}
+
+.title-container .title {
+    font-size: 1vw;
+}
+
+.title-container .subtitle {
+    font-size: 3vw;
+}
+
+.road-title {
+    padding: 0
+}
+
+.road-transportation-text-1 {
+    padding: 120px 0 30px 0;
+}
+
+.road-transportation-text-2 {
+    padding: 30px 0 110px 0;
+    text-align: left;
+}
+
+.delivery-container, .pricing-table-container {
+    background-color: rgb(246, 246, 246);
+}
+
+.delivery-container-1 {
+    padding: 100px 0 50px 25px;
+}
+
+.title-of-li {
+    padding-bottom: 20px;
+}
+
+.title-of-li strong {
+    color: rgb(255, 0, 0);
+    padding-right: 0.5em;
+}
+
+.list-hov-red {
+    color: rgb(99, 99, 99);
+}
+
+.list-hov-red:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.trailer-types-title {
+    padding: 120px 0 50px 20px;
+}
+
+.trailer-types-title-1 {
+    padding: 120px 0 0 20px;
+}
+
+.power-only-text {
+    padding: 0 0 50px 40px;
+}
+
+.lists-of-trailer-types {
+    padding-bottom: 70px;
+}
+
+.general-container li {
+    list-style-type: none;
+}
+
+.general-container li::before {
+    content: "";
+    background: url(../images/list-arrow.png);
+    width: 0.5em;
+    height: 0.5em;
+    display: inline-block;
+    background-size: 100%;
+    margin-right: 5px;
+}
+
+.left-title-line {
+    width: 70px;
+    padding: 2px;
+    background-color: rgb(255, 0, 0);
+    margin-bottom: 15px;
+}
+
+.order-block {
+    margin-bottom: 20px;
+    padding: 0 10px 0 10px;
+}
+
+.order-block .pricing-order-wrapper {
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.pricing-order-container {
+    background-color: rgb(246, 246, 246);
+    padding: 50px 0 110px 0;
+}
+
+.order-now-button{
+    width: 50%;
+    height: 50px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    padding: 5px 20px 5px 20px;
+}
+
+.order-now-button:hover {
+    background-color: rgb(158, 156, 156);
+}
+
+.order-now-link {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.order-now-link:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
